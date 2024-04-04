@@ -1,0 +1,16 @@
+.c-container{
+    justify-content: space-around;
+    gap: 1rem;
+}
+.c-container>img{
+    width: 9rem;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust bounce height as needed */
+    }
+}
